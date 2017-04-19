@@ -25,3 +25,9 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * `font-awesome/*` - the font we use on the page
 * `images/presentation/*` - the themes and backgrounds we use throughout the website
 * `vendor/*` - third-party libraries that we use, you are NOT limited to these, feel free to choose your own and add more here!
+
+#### Our Favorite Tools (just in-case your interested)
+* [SublimeText](https://www.sublimetext.com/) - Free
+* [WebStorm](https://www.jetbrains.com/webstorm/) - Free for students available [here](https://www.jetbrains.com/student/) 
+* [Git](https://git-scm.com/) and [Github](https://github.com/) - Free
+* [SourceTree](https://www.sourcetreeapp.com/) - Free
