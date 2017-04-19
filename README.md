@@ -20,7 +20,7 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * Download the repository to your computer
     * We like to use Git via [SourceTree](https://www.sourcetreeapp.com/). Of course, you can use command line Git, your own tools, or simply download the repository as a ZIP file
 * If you are editing the code, just get started and be sure to commit your work!
-* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your put your own files into the repository and begin committing!
+* If you are rewriting the entire SocioLive Attendee Drawing, then feel free to delete all the original source code files and your put your own files into the repository and begin committing!
 * Be sure to test your code using one or more examples
 * Once you are done, feel free to let us know and send us link to repository or send us a pull request! 
     * [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
