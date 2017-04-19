@@ -33,10 +33,10 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * [SourceTree](https://www.sourcetreeapp.com/) - Free
 
 #### Instructions
-* Fork this repository to your own personal Github. Keep it public!
-* Download the repository to your computer, we recommend using Git via [SourceTree](https://www.sourcetreeapp.com/), but you can also download the repository as a ZIP file
+* Fork this repository to your own personal Github. Keep it public! [Fork a Repo](https://help.github.com/articles/fork-a-repo)
+* Download the repository to your computer, we recommend using Git via [SourceTree](https://www.sourcetreeapp.com/). Of course, you can also use command line Git, your own tools, or simply download the repository as a ZIP file
 * If you are editing the code, just get started and be sure to commit your work!
 * If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your put your own files into the repository and begin committing!
 * Be sure to test your code using one or more examples
-* Once you are done, feel free to let us know and send us link to repository or send us a pull request!
+* Once you are done, feel free to let us know and send us link to repository or send us a pull request! [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
 * P.S. If you want to build more than one version feel free to send them both with us!
