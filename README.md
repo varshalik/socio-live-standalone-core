@@ -36,6 +36,7 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * Fork this repository to your own personal Github. Keep it public!
 * Download the repository to your computer, we recommend using Git via [SourceTree](https://www.sourcetreeapp.com/), but you can also download the repository as a ZIP file
 * If you are editing the code, just get started and be sure to commit your work!
-* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your files into the repository
+* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your put your own files into the repository and begin committing!
 * Be sure to test your code using one or more examples
 * Once you are done, feel free to let us know and send us link to repository or send us a pull request!
+* P.S. If you want to build more than one version feel free to send them both with us!
