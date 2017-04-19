@@ -1,17 +1,35 @@
-/**
- * Created by Joseph on 10/14/2016.
- */
+// Basic wrapper for users
+function BasicUser(id, first, last, info, join_time) {
+    this.id = id;
+    this.first = first;
+    this.last = last;
+    this.info = info;
+    this.joinTime = join_time;
 
-function getUrlParameter(param) {
-  var smallPageUrl = window.location.search.substring(1);
-  var urlVariables = smallPageUrl.split("&");
-  for(var i = 0; i < urlVariables.length; i++) {
-    var thisParam = urlVariables[i].split('=');
-    if (thisParam[0] == param) {
-      return decodeURIComponent(thisParam[1]);
+    this.getFullName = function() {
+        return this.first + " " + this.last;
+    };
+
+
+    this.buildHtmlForAttendeeDrawing = function() {
+        var thisUserDiv = document.createElement('div');
+        thisUserDiv.className = "user-drawing-element-div";
+        thisUserDiv.setAttribute('name', this.id);
+
+        var thisUserNameP = document.createElement('p');
+        thisUserNameP.innerHTML = this.getFullName();
+        thisUserNameP.className = "attendee-name";
+        thisUserDiv.appendChild(thisUserNameP);
+
+        var thisUserInfoP = document.createElement('p');
+        thisUserInfoP.className = "attendee-info";
+        thisUserInfoP.innerHTML = this.info;
+        thisUserDiv.appendChild(thisUserInfoP);
+
+        return thisUserDiv;
     }
-  }
 }
+
 
 function getRandomInterval() {
   return parseInt(Math.random() * ((Math.random() * 10) * 1000));
@@ -38,42 +56,7 @@ function toggleFullScreen() {
   }
 }
 
-var printOutput = false;
-var runInTestMode = false;
-
 var $defaultTheme = $('[name="theme-1"]');
-
-
-function BasicUser(id, first, last, info, join_time) {
-  this.id = id;
-  this.first = first;
-  this.last = last;
-  this.info = info;
-  this.joinTime = join_time;
-
-  this.getFullName = function() {
-    return this.first + " " + this.last;
-  };
-
-
-  this.buildHtmlForAttendeeDrawing = function() {
-    var thisUserDiv = document.createElement('div');
-    thisUserDiv.className = "user-drawing-element-div";
-    thisUserDiv.setAttribute('name', this.id);
-
-    var thisUserNameP = document.createElement('p');
-    thisUserNameP.innerHTML = this.getFullName();
-    thisUserNameP.className = "attendee-name";
-    thisUserDiv.appendChild(thisUserNameP);
-
-    var thisUserInfoP = document.createElement('p');
-    thisUserInfoP.className = "attendee-info";
-    thisUserInfoP.innerHTML = this.info;
-    thisUserDiv.appendChild(thisUserInfoP);
-
-    return thisUserDiv;
-  }
-}
 
 var temporary = false;
 var options = {
@@ -212,6 +195,7 @@ function openAttendeeDrawing() {
     }
   })
 }
+
 function setupSlotMachine(usersDictionary) {
   var $carousel = $('#carousel');
   var current = 0;
@@ -230,6 +214,7 @@ function setupSlotMachine(usersDictionary) {
   control.speed = 2000;
   runControl()
 }
+
 function closeAttendeeDrawing() {
   document.getElementById('attendee-drawing-overlay').style.width = "0%";
 
@@ -246,12 +231,12 @@ var handshakes = new CountUp("handshakesCount", 0, 0, 0, 2.5, options);
 handshakes.start();
 var $industriesList = $('#industriesList');
 
-function setupEvent(id) {
-  restApi.getEventInfo(id, function(response) {
-    $title.html("SocioLive - " + response.event_name.toUpperCase() + " Event");
-    $eventName.html(response.event_name.toUpperCase());
-  });
-}
+
+
+
+// SocioLive - non-attendee drawing functionality
+
+
 function setupActions() {
   $settingsPanel.find('b[name="attendee_drawing"]').on('click', function(e) {
     openAttendeeDrawing();
