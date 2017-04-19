@@ -31,3 +31,11 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * [WebStorm](https://www.jetbrains.com/webstorm/) - Free for students available [here](https://www.jetbrains.com/student/) 
 * [Git](https://git-scm.com/) and [Github](https://github.com/) - Free
 * [SourceTree](https://www.sourcetreeapp.com/) - Free
+
+#### Instructions
+* Fork this repository to your own personal Github. Keep it public!
+* Download the repository to your computer, we recommend using Git via [SourceTree](https://www.sourcetreeapp.com/), but you can also download the repository as a ZIP file
+* If you are editing the code, just get started and be sure to commit your work!
+* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your files into the repository
+* Be sure to test your code using one or more examples
+* Once you are done, feel free to let us know and send us link to repository or send us a pull request!
