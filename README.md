@@ -14,6 +14,17 @@ Here you can see an example csv file that our customers will be able to use to u
 
 P.S. If you come up with something solid, we will publish it and thousands of people will enjoy using your creation! We recommended keeping this work you create in your public profile for other people to see. We love open source and we love collaborating!
 
+#### Instructions
+* Fork this repository to your own personal Github. Keep it public! 
+    * [Fork a Repo](https://help.github.com/articles/fork-a-repo)
+* Download the repository to your computer
+    * We like to use Git via [SourceTree](https://www.sourcetreeapp.com/). Of course, you can use command line Git, your own tools, or simply download the repository as a ZIP file
+* If you are editing the code, just get started and be sure to commit your work!
+* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your put your own files into the repository and begin committing!
+* Be sure to test your code using one or more examples
+* Once you are done, feel free to let us know and send us link to repository or send us a pull request! 
+    * [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
+* P.S. If you want to build more than one version feel free to send them both with us!
 
 #### Important Files
 * `js/live-demo.js` - main javascript file which includes attendee drawing AND SocioLive code. Only need to pay attention to attendee drawing code
@@ -31,12 +42,3 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * [WebStorm](https://www.jetbrains.com/webstorm/) - Free for students available [here](https://www.jetbrains.com/student/) 
 * [Git](https://git-scm.com/) and [Github](https://github.com/) - Free
 * [SourceTree](https://www.sourcetreeapp.com/) - Free
-
-#### Instructions
-* Fork this repository to your own personal Github. Keep it public! [Fork a Repo](https://help.github.com/articles/fork-a-repo)
-* Download the repository to your computer, we recommend using Git via [SourceTree](https://www.sourcetreeapp.com/). Of course, you can also use command line Git, your own tools, or simply download the repository as a ZIP file
-* If you are editing the code, just get started and be sure to commit your work!
-* If you are rewriting the entire SocioDrawing, then feel free to delete all the files and your put your own files into the repository and begin committing!
-* Be sure to test your code using one or more examples
-* Once you are done, feel free to let us know and send us link to repository or send us a pull request! [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
-* P.S. If you want to build more than one version feel free to send them both with us!
