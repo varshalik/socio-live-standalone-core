@@ -13,3 +13,15 @@ Currently, those names in this demo Attendee Drawing are hardcoded in the Javasc
 Here you can see an example csv file that our customers will be able to use to upload names into the Attendee Drawing. You will be given the current source code that we have, but we would like to keep this assignment open ended, so feel free to rewrite the entire Attendee Drawing through a language of your convenience (ReactJS would be one that we would be interesting to see, but Vanilla Javascript or AngularJS is also good). If you decide to not use the code provided and rewrite, you do NOT need recreate any of the other parts of SocioLive, just the attendee drawing. Ultimately, this project is entirely yours, so think of this project as something that we would publish to thousands of people to use. 
 
 P.S. If you come up with something solid, we will publish it and thousands of people will enjoy using your creation! We recommended keeping this work you create in your public profile for other people to see. We love open source and we love collaborating!
+
+
+#### Important Files
+* `js/live-demo.js` - main javascript file which includes attendee drawing AND SocioLive code. Only need to pay attention to attendee drawing code
+* `index.html` - main HTML file that runs code
+* `examples\simple-example-1.csv` - simple CSV file that you can use to test your code and know how the an example input would look like
+
+#### Other Files / Folders
+* `css/presentation/*` - all the CSS files used
+* `font-awesome/*` - the font we use on the page
+* `images/presentation/*` - the themes and backgrounds we use throughout the website
+* `vendor/*` - third-party libraries that we use, you are NOT limited to these, feel free to choose your own and add more here!
