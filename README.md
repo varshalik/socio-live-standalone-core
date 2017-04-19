@@ -34,7 +34,7 @@ Just for reference, the repository's Github issues can be found [here](https://g
 
 #### Important Files
 * `js/live-demo.js` - main javascript file which includes attendee drawing AND SocioLive code. Only need to pay attention to attendee drawing code
-* `index.html` - main HTML file that runs code
+* `index.html` - main HTML file
 * `examples\simple-example-1.csv` - simple CSV file that you can use to test your code and know how the an example input would look like
 
 #### Other Files / Folders
