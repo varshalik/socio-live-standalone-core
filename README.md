@@ -10,7 +10,7 @@ Here at [Socio](https://socio.events), one of our simplest but most engaging pro
 
 Currently, the names in this demo Attendee Drawing are hardcoded in the Javascript code (`js/live-demo.js`). One of the most frequent requests that we receive from our customers is to have the ability to upload names to our Attendee Drawing through a csv (comma-separated values) file. As your take home assignment, you will simply be given this task. You will need to somehow let our customer upload a csv file into Attendee Drawing. You will be responsible for designing the front-end and back-end of it through HTML and Javascript or anything that can run in a browser.
 
-Here you can see an example csv file that our customers will be able to use to upload names into a Attendee Drawing. You will be given the current source code that we have, but we would like to keep this assignment open ended, so feel free to rewrite the entire Attendee Drawing through a language of your convenience ([ReactJS](https://facebook.github.io/react/) would be one that we would be interesting to see, but plain old Javascript or [AngularJS](https://angularjs.org/) is also good). If you decide to not use the code provided and rewrite, you do NOT need recreate any of the other parts of SocioLive, just the attendee drawing. Ultimately, this project is entirely yours, so think of this project as something that we would publish to thousands of people to use. 
+Here you can see an example csv file that our customers will be able to use to upload names into a Attendee Drawing. You will be given the current source code that we have, but we would like to keep this assignment open ended, so feel free to rewrite the entire Attendee Drawing through a framework/language of your choice ([ReactJS](https://facebook.github.io/react/) would be one that we would be interesting to see, but plain old Javascript or [AngularJS](https://angularjs.org/) is also good). If you decide to not use the code provided and rewrite, you do NOT need recreate any of the other parts of SocioLive, just the Attendee Drawing. Ultimately, this project is entirely yours, so think of this project as something that we would publish to thousands of people to use. 
 
 P.S. If you come up with something solid, we will publish it and thousands of people will enjoy using your creation! We recommended keeping this work you create in your public profile for other people to see. We love open source and we love collaborating!
 
@@ -25,6 +25,12 @@ P.S. If you come up with something solid, we will publish it and thousands of pe
 * Once you are done, feel free to let us know and send us link to repository or send us a pull request! 
     * [Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
 * P.S. If you want to build more than one version feel free to send them both with us!
+
+
+#### Questions
+If you have any questions, feel free to add a Github Issue on the repository. Instructions on creating an issue can be found [here](https://help.github.com/articles/creating-an-issue/).
+
+Just for reference, the repository's Github issues can be found [here](https://github.com/jlwatkins/socio-live-standalone-core/issues)
 
 #### Important Files
 * `js/live-demo.js` - main javascript file which includes attendee drawing AND SocioLive code. Only need to pay attention to attendee drawing code
