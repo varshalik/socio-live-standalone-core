@@ -72,7 +72,7 @@ var $title = $('title');
 var $eventName = $('[name="event_name"]');
 var $settingsPanel = $('div[class="panel-inner"]');
 
-var users = {
+ var users = {
   1: new BasicUser(1, "Desmond", "Strickland", "Fishery", Date.now()),
   2: new BasicUser(2, 'Thaddeus','Galvan','Professional Training & Coaching', Date.now()),
   3: new BasicUser(3, 'Lamont','Friedman','Automotive', Date.now()),
@@ -222,11 +222,15 @@ function loadHandler(event) {
 function processData(csv) {
     var allTextLines = csv.split(/\r\n|\n/);
     var lines = [];
+    var users1 = [];	
     while (allTextLines.length) {
         lines.push(allTextLines.shift().split(','));
+	users1.append( new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()))
+	    
     }
+	setupSlotMachine(users1);
 	console.log(lines);
-	drawOutput(lines);
+	//drawOutput(lines);
 }
 
 function errorHandler(evt) {
