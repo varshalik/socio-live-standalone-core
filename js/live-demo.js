@@ -170,7 +170,7 @@ function openAttendeeDrawing() {
   var $slotMachine = $('#planeMachine');
   $slotMachine.empty();
   temporary = true;
-  setupSlotMachine(users);
+  //setupSlotMachine(users);
 
   $('#start-stop-button').off('click').on('click', function(e) {
 
@@ -228,7 +228,7 @@ function processData(csv) {
 	users1.append( new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()))
 	    
     }
-	setupSlotMachine(users1);
+	setupSlotMachine(users);
 	console.log(lines);
 	//drawOutput(lines);
 }
