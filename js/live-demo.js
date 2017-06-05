@@ -225,7 +225,7 @@ function processData(csv) {
     var users1=[] ;	
     while (allTextLines.length) {
         lines.push(allTextLines.shift().split(','));
-	users1.push( 1: new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()));
+	users1.append( 1: new BasicUser(1,"baba" , "black", "sheep", Date.now()))
 	    
     }
 	setupSlotMachine(users1);
