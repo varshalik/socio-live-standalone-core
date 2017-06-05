@@ -199,7 +199,7 @@ function handleFiles(files) {
 	// Check for the various File API support.
 	if (window.FileReader) {
 		// FileReader are supported.
-		//getAsText(files[0]);
+		getAsText(files[0]);
 	} else {
 		alert('FileReader are not supported in this browser.');
 	}
@@ -228,7 +228,7 @@ function processData(csv) {
 	users1.append( new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()))
 	    
     }
-	setupSlotMachine(users);
+	setupSlotMachine(users1);
 	console.log(lines);
 	//drawOutput(lines);
 }
