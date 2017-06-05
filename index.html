@@ -139,10 +139,7 @@
 <!-- OVERLAY -->
 <div id="attendee-drawing-overlay" class="overlay">
     <a href="javascript:void(0)" class="closebtn" style="z-index: 1000" onclick="closeAttendeeDrawing()">&times;</a>
-              <label for="csvFileInput"> <strong>CSV File:</strong>
-          </label>
-          <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
-          accept=".csv">
+
     <div class="overlay-content container" style="margin-top: 15%;">
         <div class="col-md-12 col-lg-8 col-lg-offset-2" id="carousel-wrapper">
             <div id="carousel">
@@ -159,6 +156,15 @@
             <button id="start-stop-button" class="start-stop-button">
                 SPIN
             </button> 
+            
+
+        </div>
+                <div class="col-md-12 col-lg-8 col-lg-offset-2" style="text-align: center; margin-top: 25%; margin-bottom: 5%;">
+              <label for="csvFileInput"> <strong>CSV File:</strong>
+          </label>
+          <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+          accept=".csv">
+            
 
         </div>
 
