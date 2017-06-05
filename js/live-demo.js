@@ -222,10 +222,10 @@ function loadHandler(event) {
 function processData(csv) {
     var allTextLines = csv.split(/\r\n|\n/);
     var lines = [];
-    var users1 = [];	
+    var users1 ;	
     while (allTextLines.length) {
         lines.push(allTextLines.shift().split(','));
-	users1.append( new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()))
+	users1.append( 1: new BasicUser(1,lines[0] , lines[1], lines[2], Date.now()))
 	    
     }
 	setupSlotMachine(users1);
