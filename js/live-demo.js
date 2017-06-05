@@ -72,7 +72,7 @@ var $title = $('title');
 var $eventName = $('[name="event_name"]');
 var $settingsPanel = $('div[class="panel-inner"]');
 
- var users = {
+var users = {
   1: new BasicUser(1, "Desmond", "Strickland", "Fishery", Date.now()),
   2: new BasicUser(2, 'Thaddeus','Galvan','Professional Training & Coaching', Date.now()),
   3: new BasicUser(3, 'Lamont','Friedman','Automotive', Date.now()),
@@ -170,7 +170,7 @@ function openAttendeeDrawing() {
   var $slotMachine = $('#planeMachine');
   $slotMachine.empty();
   temporary = true;
-  //setupSlotMachine(users);
+  setupSlotMachine(users);
 
   $('#start-stop-button').off('click').on('click', function(e) {
 
@@ -194,49 +194,6 @@ function openAttendeeDrawing() {
       }
     }
   })
-}
-function handleFiles(files) {
-	// Check for the various File API support.
-	if (window.FileReader) {
-		// FileReader are supported.
-		getAsText(files[0]);
-	} else {
-		alert('FileReader are not supported in this browser.');
-	}
-}
-
-function getAsText(fileToRead) {
-	var reader = new FileReader();
-	// Handle errors load
-	reader.onload = loadHandler;
-	reader.onerror = errorHandler;
-	// Read file into memory as UTF-8      
-	reader.readAsText(fileToRead);
-}
-
-function loadHandler(event) {
-	var csv = event.target.result;
-	processData(csv);             
-}
-
-function processData(csv) {
-    var allTextLines = csv.split(/\r\n|\n/);
-    var lines = [];
-    var users1=[] ;	
-    while (allTextLines.length) {
-        lines.push(allTextLines.shift().split(','));
-	users1.append( 1: new BasicUser(1,"baba" , "black", "sheep", Date.now()))
-	    
-    }
-	setupSlotMachine(users1);
-	console.log(lines);
-	//drawOutput(lines);
-}
-
-function errorHandler(evt) {
-	if(evt.target.error.name == "NotReadableError") {
-		alert("Canno't read file !");
-	}
 }
 
 function setupSlotMachine(usersDictionary) {
